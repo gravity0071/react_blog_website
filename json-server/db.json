@@ -1,0 +1,211 @@
+{
+  "tokens": [
+    {
+      "mobile": "1234567890",
+      "code": "123",
+      "token": "token-abc123"
+    },
+    {
+      "mobile": "0987654321",
+      "code": "5678",
+      "token": "token-def456"
+    }
+  ],
+  "users": [
+    {
+      "birthday": "1990-11-11",
+      "gender": "1",
+      "id": "12345",
+      "mobile": "1234567890",
+      "name": "1234567890",
+      "photo": ""
+    },
+    {
+      "birthday": "2000-11-11",
+      "gender": "1",
+      "id": "12346",
+      "mobile": "1234567891",
+      "name": "1234567891",
+      "photo": ""
+    }
+  ],
+  "channels": {
+    "channels": [
+      {
+        "id": 0,
+        "name": "test1"
+      },
+      {
+        "id": 1,
+        "name": "test2"
+      },
+      {
+        "id": 2,
+        "name": "test3"
+      },
+      {
+        "id": 3,
+        "name": "test4"
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "1a2b3c4d",
+      "title": "How to Build a Node.js Server",
+      "status": 1,
+      "comment_count": 12,
+      "pubdate": "2023-09-14 10:20:30",
+      "cover": {
+        "type": 1,
+        "images": [
+          "http://localhost:8888/uploads/3-1726596392071.png"
+        ]
+      },
+      "like_count": 45,
+      "read_count": 128,
+      "channel_id": 1,
+      "content": "<p>This article covers the steps to build a Node.js server, including setup, routing, and middleware.</p>"
+    },
+    {
+      "id": "3c4d5e6f",
+      "title": "Exploring Blockchain for Data Security",
+      "status": 2,
+      "comment_count": 8,
+      "pubdate": "2023-09-12 14:30:00",
+      "cover": {
+        "images": [],
+        "type": 0
+      },
+      "like_count": 20,
+      "read_count": 200,
+      "channel_id": 3,
+      "content": "This article explores how blockchain technology can be used to enhance data security and prevent tampering."
+    },
+    {
+      "id": "4d5e6f7g",
+      "title": "Top 10 JavaScript Libraries for 2024",
+      "status": 2,
+      "comment_count": 16,
+      "pubdate": "2023-09-10 08:12:45",
+      "cover": {
+        "images": [
+          "https://example.com/image5.jpg"
+        ],
+        "type": 1
+      },
+      "like_count": 72,
+      "read_count": 510,
+      "channel_id": 3,
+      "content": "This article lists the top 10 JavaScript libraries for 2024, discussing their use cases and popularity."
+    },
+    {
+      "id": "5e6f7g8h",
+      "title": "Understanding Async/Await in JavaScript",
+      "status": 2,
+      "comment_count": 5,
+      "pubdate": "2023-09-09 12:10:22",
+      "cover": {
+        "images": [],
+        "type": 0
+      },
+      "like_count": 35,
+      "read_count": 150,
+      "channel_id": 1,
+      "content": "This article explains how to use async/await in JavaScript to write cleaner asynchronous code."
+    },
+    {
+      "id": "1726588247980",
+      "title": "test",
+      "status": 1,
+      "content": "<p>test</p>",
+      "comment_count": 0,
+      "pubdate": "2024-09-17T15:50:47.980Z",
+      "cover": {
+        "type": 0,
+        "images": []
+      },
+      "like_count": 0,
+      "read_count": 0,
+      "channel_id": 1,
+      "draft": false,
+      "created_at": "2024-09-17T15:50:47.980Z"
+    },
+    {
+      "id": "1726594246834",
+      "title": "test",
+      "status": 1,
+      "content": "<p>testtest</p>",
+      "comment_count": 0,
+      "pubdate": "2024-09-17T17:30:46.834Z",
+      "cover": {
+        "type": 1,
+        "images": [
+          "http://localhost:8888/uploads/cfcc2134dab1605fa7bcc24130f84d3c"
+        ]
+      },
+      "like_count": 0,
+      "read_count": 0,
+      "channel_id": 1,
+      "draft": false,
+      "created_at": "2024-09-17T17:30:46.834Z"
+    },
+    {
+      "id": "1726594621844",
+      "title": "test3",
+      "status": 1,
+      "content": "<p>test</p>",
+      "comment_count": 0,
+      "pubdate": "2024-09-17T17:37:01.844Z",
+      "cover": {
+        "type": 1,
+        "images": [
+          "http://localhost:8888/uploads/37647f5d1ea238bc0310c240bcea5482"
+        ]
+      },
+      "like_count": 0,
+      "read_count": 0,
+      "channel_id": 3,
+      "draft": false,
+      "created_at": "2024-09-17T17:37:01.844Z"
+    },
+    {
+      "id": "1726594831601",
+      "title": "test4",
+      "status": 1,
+      "content": "<p>test</p>",
+      "comment_count": 0,
+      "pubdate": "2024-09-17T17:40:31.601Z",
+      "cover": {
+        "type": 1,
+        "images": [
+          "http://localhost:8888/uploads/1-1726594829745.jpg"
+        ]
+      },
+      "like_count": 0,
+      "read_count": 0,
+      "channel_id": 2,
+      "draft": false,
+      "created_at": "2024-09-17T17:40:31.601Z"
+    },
+    {
+      "id": "1726594887765",
+      "title": "tezsttttttt",
+      "status": 1,
+      "content": "<p>test3graph</p>",
+      "comment_count": 0,
+      "pubdate": "2024-09-17T17:41:27.765Z",
+      "cover": {
+        "type": 1,
+        "images": [
+          "http://localhost:8888/uploads/8-1-1726601699032.png"
+        ]
+      },
+      "like_count": 0,
+      "read_count": 0,
+      "channel_id": 2,
+      "draft": false,
+      "created_at": "2024-09-17T17:41:27.765Z"
+    }
+  ]
+}
