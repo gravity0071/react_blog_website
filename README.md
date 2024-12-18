@@ -3,4 +3,4 @@ The Blog Site is a comprehensive web application designed to allow users to read
 
 front_react: using port 3000, to start, using: npm run start  ||   serve -s ./build, 
 
-json-server: using port 8888, to start, using: npm start
+server: using port 8888, to start, using: npm start
