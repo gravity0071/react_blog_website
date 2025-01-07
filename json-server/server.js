@@ -10,7 +10,6 @@ const PORT = 8888;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// In-memory database for simplicity (replace with a real database in production)
 const db = {
     tokens: [],
     users: [{ id: '1', name: 'User1', email: 'user1@example.com' }],
